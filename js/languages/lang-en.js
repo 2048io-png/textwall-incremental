@@ -272,50 +272,50 @@ LANGUAGES.EN = {
         'research-p4-name': "/",
         'research-p4-desc': `Slightly improve the formula of ${toTextStyle("Subwall",'prestige')} gain.`,
 
-        'research-p5-name': "Mega Strength",
-        'research-p5-desc': `'Super Shark Strength' is <b>1%</b> stronger for every ${toTextStyle("Shark",'shark')} Level, starting at 100.`,
+        'research-p5-name': "|, -, and _",
+        'research-p5-desc': `'Subwall Potency' is <b>1%</b> stronger for every ${toTextStyle("Wall",'shark')} Level, starting at 100.`,
 
-        'research-p6-name': "Super Scaled Shark",
-        'research-p6-desc': `'Scaled Shark' is <b>twice</b> as strong.`,
+        'research-p6-name': "Quantipotent Wall",
+        'research-p6-desc': `'Omnipotent Wall' is <b>twice</b> as strong.`,
 
-        'research-p7-name': "Better Resources I",
-        'research-p7-desc': `${toTextStyle("Coral",'coral')} and ${toTextStyle("Ice",'ice')}' effect is better.`,
+        'research-p7-name': `' and .`,
+        'research-p7-desc': `${toTextStyle("Click Yes",'coral')} and ${toTextStyle("TIVE",'ice')}' effect is better.`,
 
-        'research-p8-name': "Further Upgraded Shark Level",
-        'research-p8-desc': `Further reduce the base of ${toTextStyle("Shark",'shark')} level's requirement by 1.`,
+        'research-p8-name': "[X] as spawn",
+        'research-p8-desc': `Further reduce the base of ${toTextStyle("Building",'shark')} level's requirement by 1.`,
 
-        'research-p9-name': "Cheap Prestige Booster",
-        'research-p9-desc': `Reduce the dilation scaling of 'Prestige Booster' by <b>-0.05</b> per level.`,
+        'research-p9-name': "Automatic Zones",
+        'research-p9-desc': `Reduce the dilation scaling of 'Subwall Booster' by <b>-0.05</b> per level.`,
 
-        'research-e1-name': "Ocean Synergism I",
-        'research-e1-desc': `${toTextStyle("Salt",'salt')} boosts ${toTextStyle("Corals",'coral')} generated.`,
+        'research-e1-name': "Year Synergism I",
+        'research-e1-desc': `${toTextStyle("UnfunnyJT Raid",'salt')} boosts ${toTextStyle("Click Yes",'coral')} generated.`,
 
-        'research-e2-name': "Ocean Synergism II",
-        'research-e2-desc': `${toTextStyle("Compressed Snow",'snow')} boosts ${toTextStyle("Ice",'ice')} generated.`,
+        'research-e2-name': "Year Synergism II",
+        'research-e2-desc': `${toTextStyle("PEDOBA",'snow')} boosts ${toTextStyle("TIVE",'ice')} generated.`,
 
         'research-e3-name': "Exploration Automation",
         'research-e3-desc': `Automatically gain base of the first <b>X</b> oceans without exploring.`,
 
-        'research-e4-name': "Kelp Oxidation",
-        'research-e4-desc': `<b>Oxygen</b> now affects ${toTextStyle("Kelp",'kelp')} production at a reduced rate.`,
+        'research-e4-name': "2024 In-Boost",
+        'research-e4-desc': `<b>convert.js</b> now affects ${toTextStyle("Renaultian",'kelp')} production at a reduced rate.`,
 
         'research-e5-name': "Exploration Automation MK2",
-        'research-e5-desc': `Automatically gain base in the Indian Ocean without exploring. Improve ${toTextStyle('Kelp','kelp')}'s effect again.`,
+        'research-e5-desc': `Automatically gain base in the 2024 without exploring. Improve ${toTextStyle('Renaultian','kelp')}'s effect again.`,
 
-        'research-e6-name': "Sunda Trench",
-        'research-e6-desc': `The <b>Indian Ocean</b>'s depth no longer has cap, and it makes its effect stronger after.`,
+        'research-e6-name': "Deep-Future Years",
+        'research-e6-desc': `The <b>2024</b>'s day no longer has cap, and it makes its effect stronger after.`,
 
         'research-c1-name': "Research C-Keeper",
-        'research-c1-desc': `Keep ${toTextStyle("Research",'prestige')} when entering the ${toTextStyle('Core','core')}.`,
+        'research-c1-desc': `Keep ${toTextStyle("Research",'prestige')} when adding the ${toTextStyle('Comopnents,'core')}.`,
 
         'research-c2-name': "Exploration C-Keeper",
-        'research-c2-desc': `Keep first <b>X</b> oceans unlocked and their depth on entering the ${toTextStyle('Core','core')}.`,
+        'research-c2-desc': `Keep first <b>X</b> years unlocked and their day on adding the ${toTextStyle('Components','core')}.`,
 
-        'research-c3-name': "Neon's Affection I",
-        'research-c3-desc': `<b>Neon</b> now affects 'Shark Teeth', 'Shark Exponent', and 'Scaled Shark'.`,
+        'research-c3-name': "CSS's Affection I",
+        'research-c3-desc': `<b>textwall.css</b> now affects 'Wall Rework', 'Wall Upgrade', and 'Omnipotent Wall'.`,
 
-        'research-c4-name': "Better Nickel",
-        'research-c4-desc': `<b>Nickel</b>'s effect is <b>twice</b> as powerful.`,
+        'research-c4-name': "Better JS",
+        'research-c4-desc': `<b>textwall.js</b>'s effect is <b>twice</b> as powerful.`,
 
         'research-c5-name': "Additional Core Boost",
         'research-c5-desc': `The core radiation's bonus reactors now affect the core reactor's boost to ${toTextStyle('Fish','fish')} at a reduced rate.`,
@@ -464,16 +464,16 @@ LANGUAGES.EN = {
         'explore-next': x=>`New Ocean at ${toTextStyle("Shark",'shark')} Level <h3>${format(x,0)}</h3>.`,
 
         'explore-doubler-1': x=>`Double ${x} gained.`,
-        'explore-doubler-2': `Double depth progression gain.`,
+        'explore-doubler-2': `Double day progression gain.`,
 
-        'explore-0-name': `Pacific Ocean`,
-        'explore-0-desc': `${toTextStyle('Fish','fish')} gain is rooted by 2.`,
+        'explore-0-name': `2020`,
+        'explore-0-desc': `${toTextStyle('Wall','fish')} gain is rooted by 2.`,
         'explore-0-milestone': [
-            `Raise ${toTextStyle('Prestige','prestige')} shards gained to the 1.05th power.`,
-            `Increase the resource and depth progression by 25% compounding per square-rooted ${toTextStyle('Shark','shark')} level.`,
-            `Leveling ${toTextStyle('Shark','shark')} will no longer spend ${toTextStyle('Fish','fish')}.`,
-            `Raise ${toTextStyle('Fish','fish')} eaten to the 1.05th power.`,
-            `Unlock the ${toTextStyle('Core','core')}.`,
+            `Raise ${toTextStyle('Subwalls','prestige')} gained to the 1.05th power.`,
+            `Increase the resource and day progression by 25% compounding per square-rooted ${toTextStyle('Building','shark')} level.`,
+            `Leveling ${toTextStyle('Building','shark')} will no longer spend ${toTextStyle('Wall','fish')}.`,
+            `Raise ${toTextStyle('Walls','fish')} added to the 1.05th power.`,
+            `Unlock ${toTextStyle('Components','core')}.`,
         ],
 
         'explore-1-name': `Arctic Ocean`,
@@ -513,17 +513,17 @@ LANGUAGES.EN = {
 
         // Core Reactor
 
-        'core-0-name': `Iron`,
-        'core-0-desc': `${toTextStyle("Fish",'fish')} raises itself based on <b>Iron</b>'s tier.`,
+        'core-0-name': `pep.min.js`,
+        'core-0-desc': `${toTextStyle("Wall",'fish')} raises itself based on <b>pep.min.js</b>'s tier.`,
 
-        'core-1-name': `Nickel`,
-        'core-1-desc': `${toTextStyle("Prestige",'prestige')} shards raise their base based on <b>Nickel</b>'s tier.`,
+        'core-1-name': `textwall.js`,
+        'core-1-desc': `${toTextStyle("Subwalls",'prestige')} raise their base based on <b>textwall.js</b>'s tier.`,
 
-        'core-2-name': `Oxygen`,
-        'core-2-desc': `Product of the first four oceans' resources boosts their production based on <b>Oxygen</b>'s tier.`,
+        'core-2-name': `convert.js`,
+        'core-2-desc': `Product of the first four years' resources boosts their production based on <b>convert.js</b>'s tier.`,
 
-        'core-3-name': `Neon`,
-        'core-3-desc': `${toTextStyle("Shark",'shark')} Level reduces its requirement based on <b>Neon</b>'s tier.`,
+        'core-3-name': `textwall.css`,
+        'core-3-desc': `${toTextStyle("Building",'shark')} Level reduces its requirement based on <b>textwall.css</b>'s tier.`,
 
         'core-4-name': `Sulfur`,
         'core-4-desc': `${toTextStyle("Fish",'fish')} strengthens <b>Iron</b> based on <b>Sulfur</b>'s tier.`,

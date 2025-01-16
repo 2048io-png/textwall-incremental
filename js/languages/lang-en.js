@@ -12,7 +12,7 @@ LANGUAGES.EN = {
         'fish-costName': toTextStyle('Wall','fish'),
 
         'prestige-name': "Subwalls",
-        'prestige-costName': toTextStyle('Subwall','prestige') + " Shards",
+        'prestige-costName': toTextStyle('Subwall','prestige'),
 
         'coral-name': "Click Yes",
         'coral-costName': toTextStyle('Click Yes','coral'),
@@ -150,19 +150,19 @@ LANGUAGES.EN = {
             Upgrade with radioactive ${rf} to generate more ${toTextStyle('Radiation '+icon("radioactive"),'core')}, which gives you additional boosts.
             `
         },
-        'radioboost-div': `You have <h3 id="radioactive-boost">0</h3> radioactive boosts.`,
+        'radioboost-div': `You have <h3 id="radioactive-boost">0</h3> components worked.`,
 
-        'core-temp-div': `The ${toTextStyle('Core','core')}'s temperature is <h3>${toTextStyle('6,150','core','core-temperature')}</h3>, which makes radioactive boosts <h4 id="core-temp-effect">100%</h4> effective.`,
-        'core-temp-after-div': `(The ${toTextStyle('Core','core')}'s temperature will be <span id="core-temp-after">???</span> after a ${toTextStyle('Core','core')} reset)`,
+        'core-temp-div': `The ${toTextStyle('Component','core')}'s bytes is <h3>${toTextStyle('6,150','core','core-temperature')}</h3>, which makes radioactive boosts <h4 id="core-temp-effect">100%</h4> effective.`,
+        'core-temp-after-div': `(The ${toTextStyle('Component','core')}'s bytes will be <span id="core-temp-after">???</span> after a ${toTextStyle('Component','core')} reset)`,
 
         'sharkoid-faith-div': `You have <h3 id="sharkoid-faith-spent">0</h3> / <h3 id="sharkoid-faith-total">0</h3> ${toTextStyle('Sharkoid Faith','humanoid')}.`,
-        'respec-evolution-tree': `Respec ${toTextStyle('Evolution','humanoid')} Tree`,
-        'respec-evolution-tree-2': `Respec charged-only ${toTextStyle('Evolution','humanoid')} Tree`,
-        'export-evolution-tree': `Export ${toTextStyle('Evolution','humanoid')} Tree`,
-        'import-evolution-tree': `Import ${toTextStyle('Evolution','humanoid')} Tree`,
-        'evolution-tree-preset': `${toTextStyle('Evolution','humanoid')} Tree Presets`,
+        'respec-evolution-tree': `Respec ${toTextStyle('Files','humanoid')} Tree`,
+        'respec-evolution-tree-2': `Respec charged-only ${toTextStyle('Files','humanoid')} Tree`,
+        'export-evolution-tree': `Export ${toTextStyle('Files','humanoid')} Tree`,
+        'import-evolution-tree': `Import ${toTextStyle('Files','humanoid')} Tree`,
+        'evolution-tree-preset': `${toTextStyle('Files','humanoid')} Tree Presets`,
 
-        'rerun-evolution': `Re-run ${toTextStyle('Evolution','humanoid')}, respecing its Tree`,
+        'rerun-evolution': `Re-run ${toTextStyle('Files','humanoid')}, respecing its Tree`,
 
         'mining-text': `Mining... <b id="mining-progress">???</b> | Damage <b id="mining-damage">???</b> | ${toTextStyle(`Mining Fortune <span id="mining-fortune">0</span>`+icon("luck"),'gold')}`,
         'super-mining-text': `Super Damage <b id="super-mining-damage">???</b> | ${toColoredText(`Super Mining Fortune <span id="super-mining-fortune">0</span>`+icon("luck"),'orange')}`,
@@ -172,55 +172,55 @@ LANGUAGES.EN = {
         'mining-tier-undo-btn': `Decrease Mining Tier by 1 if you're stuck while mining.`,
         'mining-ascend-undo-btn': `Decrease Mining Ascension by 1 if you're stuck while mining.`,
 
-        'black-hole-button': `Because you maxed out all the particle accelerators, you need to form a black hole in case you enter another universe.`,
-        'black-hole-html': `You have formed <h2>${toTextStyle('0','black-hole','black-hole-amount')}</h2> black hole, which reduces the exponents of fish & prestige shards and the multiplier of magmatic fragments by <h3 id="black-hole-effect">^???</h3>.`,
+        'black-hole-button': `Because you maxed out all the particle accelerators, you need to build a TextWall AQ in case you build in textwalls.`,
+        'black-hole-html': `You have built <h2>${toTextStyle('0','black-hole','black-hole-amount')}</h2> TextWall AQ, which reduces the exponents of walls & subwalls and the multiplier of textwall components by <h3 id="black-hole-effect">^???</h3>.`,
 
-        'remnant-html': `You have <h3>${toTextStyle('0','black-hole','remnant-amount')}</h3> <span id="remnant-gain"></span> remnants.`,
+        'remnant-html': `You have <h3>${toTextStyle('0','black-hole','remnant-amount')}</h3> <span id="remnant-gain"></span> farlands.`,
 
         'rocket-part-div': `You have created <h3 id="total-rocket-part">0</h3> total Rocket Parts.`,
-        'observ-div': `You have <h3>${toTextStyle('0','observ','observ-amount')}</h3> <span id="observ-gain"></span> observatories. (<h3>${toTextStyle('0','observ','observ-total')}</h3> total)`,
-        'reserv-div': `You have <h3>${toTextStyle('0','reserv','reserv-amount')}</h3> <span id="reserv-gain"></span> reservatories.`,
-        'traject-div': `You have <h3>${toTextStyle('0','traject','traject-amount')}</h3> <span id="traject-gain"></span> trajectories.`,
-        'experiment-div': `Your ${toTextStyle('Experiment','experiment')} Tier is <h3 id="experiment-tier">0</h3>.`,
+        'observ-div': `You have <h3>${toTextStyle('0','observ','observ-amount')}</h3> <span id="observ-gain"></span> farlanders. (<h3>${toTextStyle('0','observ','observ-total')}</h3> total)`,
+        'reserv-div': `You have <h3>${toTextStyle('0','reserv','reserv-amount')}</h3> <span id="reserv-gain"></span> coordinates.`,
+        'traject-div': `You have <h3>${toTextStyle('0','traject','traject-amount')}</h3> <span id="traject-gain"></span> active textwallers.`,
+        'experiment-div': `Your ${toTextStyle('Subject','experiment')} Tier is <h3 id="experiment-tier">0</h3>.`,
 
-        'bh-tier-div': `Your Black Hole Tier is <h3>${toTextStyle('0','black-hole','bh-tier')}</h3>.`,
-        'bh-tier-button': `Reach the requirement to upgrade your${toTextStyle('Black Hole','black-hole')} tier for a powerful reward.`,
+        'bh-tier-div': `Your Plasma Tier is <h3>${toTextStyle('0','black-hole','bh-tier')}</h3>.`,
+        'bh-tier-button': `Reach the requirement to upgrade your${toTextStyle('Plasma','black-hole')} tier for a powerful reward.`,
 
-        'fundamental-amount-div': `You have <h3>${toTextStyle('0','hadron','total-fundamental')}</h3> total fundamental particles, which increases the cap of ${toTextStyle('Fish','fish')} to <h3 id="fundamental-effect">???</h3>.`,
+        'fundamental-amount-div': `You have <h3>${toTextStyle('0','hadron','total-fundamental')}</h3> total infinity points, which increases the cap of ${toTextStyle('Walls','fish')} to <h3 id="fundamental-effect">???</h3>.`,
         'starter-upg-note': `Note: The cost is <b>doubled</b> for each upgrade bought. The first upgrade is <b>RECOMMENDED</b> to buy after the first reset.`,
 
         // Upgrades
 
         'su-s1-req': "Level 3",
-        'su-s1-name': 'Shark Strength',
-        'su-s1-desc': `Increases ${toTextStyle('Fish','fish')} eaten by <b>+1</b> per level.`,
+        'su-s1-name': 'Wall Create',
+        'su-s1-desc': `Increases ${toTextStyle('Wall','fish')} created by <b>+1</b> per level.`,
 
         'su-s2-req': "Level 7",
-        'su-s2-name': 'Shark Agility',
-        'su-s2-desc': `Increases the base of ${toTextStyle('Shark','shark')} Level's ${toTextStyle('Fish','fish')} bonus by <b>+1</b> per level.`,
+        'su-s2-name': 'Wall Potency',
+        'su-s2-desc': `Increases the base of ${toTextStyle('Building','shark')} Level's ${toTextStyle('Wall','fish')} bonus by <b>+1</b> per level.`,
 
         'su-s3-req': "Level 15",
-        'su-s3-name': 'Shark Teeth',
-        'su-s3-desc': `Increases the exponent of 1st ${toTextStyle('Shark','shark')} Upgrade by <b>+50%</b> per level.`,
+        'su-s3-name': 'Wall Rework',
+        'su-s3-desc': `Increases the exponent of 1st ${toTextStyle('Wall','shark')} Upgrade by <b>+50%</b> per level.`,
 
         'su-s4-req': "Level 38",
-        'su-s4-name': 'Shark Exponent',
-        'su-s4-desc': `Increases the exponent of ${toTextStyle('Fish','fish')} by <b>+1%</b> per level.`,
+        'su-s4-name': 'Wall Update',
+        'su-s4-desc': `Increases the exponent of ${toTextStyle('Wall','fish')} by <b>+1%</b> per level.`,
 
         'su-s5-req': "Level 640",
-        'su-s5-name': 'Radioactive Shark',
-        'su-s5-desc': `Increase ${toTextStyle('Radiation '+icon("radioactive"),'core')} production by <b>x2</b> per level.`,
+        'su-s5-name': 'Hacker Shark',
+        'su-s5-desc': `Increase ${toTextStyle('Colors/Decorations '+icon("radioactive"),'core')} production by <b>x2</b> per level.`,
 
         'su-p1-req': "First Prestige",
-        'su-p1-name': 'Super Shark Strength',
-        'su-p1-desc': `Increases ${toTextStyle('Fish','fish')} eaten by <b>×3</b> per level.`,
+        'su-p1-name': 'Super Wall Create',
+        'su-p1-desc': `Increases ${toTextStyle('Wall','fish')} creating by <b>×3</b> per level.`,
 
         'su-p2-req': "First Prestige",
-        'su-p2-name': 'Prestige Booster',
-        'su-p2-desc': `Increases ${toTextStyle('Fish','fish')} eaten by <b>×lg(${toTextStyle('Fish','fish')})</b> per level.`,
+        'su-p2-name': 'Subwall Booster',
+        'su-p2-desc': `Increases ${toTextStyle('Wall','fish')} creating by <b>×lg(${toTextStyle('Fish','fish')})</b> per level.`,
 
-        'su-p3-name': 'Scaled Shark',
-        'su-p3-desc': `Delays the first ${toTextStyle('Shark','shark')} Level scaling by <b>+1</b> per level.`,
+        'su-p3-name': 'Omnipotent Wall',
+        'su-p3-desc': `Delays the first ${toTextStyle('Building','shark')} Level scaling by <b>+1</b> per level.`,
 
         'su-m1-name': 'Mining Damage',
         'su-m1-desc': `Increases the mining damage by <b>×2</b> per level.`,
@@ -229,8 +229,8 @@ LANGUAGES.EN = {
         'su-m2-desc': `Increases the mining speed by <b>+10%</b> per level.`,
 
         'su-m3-req': 'Mining Tier 3',
-        'su-m3-name': 'Compressed Stone',
-        'su-m3-desc': `Increases <b>Stone</b> mined by <b>×2</b> per level.`,
+        'su-m3-name': 'Compressed Char Shard',
+        'su-m3-desc': `Increases <b>Char Shard</b> mined by <b>×2</b> per level.`,
 
         'su-m4-req': 'Mining Tier 6',
         'su-m4-name': 'Mining Fortune',
@@ -249,8 +249,8 @@ LANGUAGES.EN = {
         'su-m7-desc': `Increases the normal and super mining speed by <b>+25%</b> per level.`,
 
         'su-m8-req': 'Mining Ascension 6',
-        'su-m8-name': 'Compressed Radium',
-        'su-m8-desc': `Increases <b>Radium-223</b> mined by <b>×2</b> per level.`,
+        'su-m8-name': 'Compressed Infinity',
+        'su-m8-desc': `Increases <b>Infinity</b> mined by <b>×2</b> per level.`,
 
         'su-m9-req': 'Mining Ascension 12',
         'su-m9-name': 'Super Mining Fortune',
@@ -258,19 +258,19 @@ LANGUAGES.EN = {
 
         // Researches
 
-        'research-p1-name': "Prestigious Agility",
-        'research-p1-desc': `'Shark Agility' now affects the base of ${toTextStyle("Shark",'shark')} Level's ${toTextStyle("Prestige",'prestige')} Shard bonus at a reduced rate.`,
+        'research-p1-name': "Subwall Potency",
+        'research-p1-desc': `'Wall Potency' now affects the base of ${toTextStyle("Wall",'shark')} Level's ${toTextStyle("Subwall",'prestige')} bonus at a reduced rate.`,
 
-        'research-p2-name': "Shark Upgrade EL",
-        'research-p2-desc': `${toTextStyle("Shark",'shark')} ${toTextStyle("Fish",'fish')} upgrades no longer spend ${toTextStyle("Fish",'fish')}.`,
+        'research-p2-name': "Wall Upgrade EL",
+        'research-p2-desc': `${toTextStyle("Wall",'shark')} ${toTextStyle("Wall",'fish')} upgrades no longer spend ${toTextStyle("Wall",'fish')}.`,
 
-        'research-p3-name': "Upgraded Shark Level",
-        'research-p3-desc': `Reduce the base of ${toTextStyle("Shark",'shark')} level's requirement by <b>1</b>,
-        but force a ${toTextStyle("Prestige",'prestige')} reset, resetting your ${toTextStyle("Prestige",'prestige')} shards and ${toTextStyle("Prestige",'prestige')} upgrades.
-        Unlock new ${toTextStyle("Shark",'shark')} upgrades.`,
+        'research-p3-name': "Improved Wall",
+        'research-p3-desc': `Reduce the base of ${toTextStyle("Building",'shark')} level's requirement by <b>1</b>,
+        but force a ${toTextStyle("Subwall",'prestige')} reset, resetting your ${toTextStyle("Subwalls",'prestige')} and ${toTextStyle("Subwall",'prestige')} upgrades.
+        Unlock new ${toTextStyle("Wall",'shark')} upgrades.`,
 
-        'research-p4-name': "Better Prestige",
-        'research-p4-desc': `Slightly improve the formula of ${toTextStyle("Prestige",'prestige')} shards gain.`,
+        'research-p4-name': "/",
+        'research-p4-desc': `Slightly improve the formula of ${toTextStyle("Subwall",'prestige')} gain.`,
 
         'research-p5-name': "Mega Strength",
         'research-p5-desc': `'Super Shark Strength' is <b>1%</b> stronger for every ${toTextStyle("Shark",'shark')} Level, starting at 100.`,

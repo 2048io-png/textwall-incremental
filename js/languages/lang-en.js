@@ -8,82 +8,82 @@ LANGUAGES.EN = {
     text: {
         // Currencies
 
-        'fish-name': "Fish",
-        'fish-costName': toTextStyle('Fish','fish'),
+        'fish-name': "Walls",
+        'fish-costName': toTextStyle('Wall','fish'),
 
-        'prestige-name': "Prestige Shards",
-        'prestige-costName': toTextStyle('Prestige','prestige') + " Shards",
+        'prestige-name': "Subwalls",
+        'prestige-costName': toTextStyle('Subwall','prestige') + " Shards",
 
-        'coral-name': "Coral",
-        'coral-costName': toTextStyle('Coral','coral'),
+        'coral-name': "Click Yes",
+        'coral-costName': toTextStyle('Click Yes','coral'),
 
-        'ice-name': "Ice",
-        'ice-costName': toTextStyle('Ice','ice'),
+        'ice-name': "TIVE",
+        'ice-costName': toTextStyle('TIVE','ice'),
 
-        'salt-name': "Salt",
-        'salt-costName': toTextStyle('Salt','salt'),
+        'salt-name': "UnfunnyJT Raid",
+        'salt-costName': toTextStyle('UnfunnyJT Raid','salt'),
 
-        'snow-name': "Compressed Snow",
-        'snow-costName': toTextStyle('Compressed Snow','snow'),
+        'snow-name': "PEBOBAs",
+        'snow-costName': toTextStyle('PEDOBA','snow'),
 
-        'kelp-name': "Kelp",
-        'kelp-costName': toTextStyle('Kelp','kelp'),
+        'kelp-name': "Renaultians",
+        'kelp-costName': toTextStyle('Renaultian','kelp'),
 
-        'core-name': "Magmatic Fragments",
-        'core-costName': toTextStyle('Magmatic','core') + ' Fragments',
+        'core-name': "Textwall Components",
+        'core-costName': toTextStyle('Textwall','core') + ' Components',
 
-        'humanoid-name': "Humanoid Sharks",
-        'humanoid-costName': toTextStyle('Humanoid','humanoid') + ' Sharks',
+        'humanoid-name': "Textwall Files",
+        'humanoid-costName': toTextStyle('Textwall','humanoid') + ' files',
 
-        'remnants-name': "Remnants",
-        'remnants-costName': toTextStyle('Remnants','black-hole'),
+        'remnants-name': "Farlands",
+        'remnants-costName': toTextStyle('Farlands','black-hole'),
 
-        'dark-matter-name': "Dark Matter",
-        'dark-matter-costName': toTextStyle('Dark Matter','black-hole'),
+        'dark-matter-name': "Scripts running",
+        'dark-matter-costName': toTextStyle('Scripts running','black-hole'),
 
-        'observ-name': "Observatories",
-        'observ-costName': toTextStyle('Observatories','observ'),
+        'observ-name': "Farlanders",
+        'observ-costName': toTextStyle('Farlanders','observ'),
 
-        'reserv-name': "Reservatories",
-        'reserv-costName': toTextStyle('Reservatories','reserv'),
+        'reserv-name': "Coordinates",
+        'reserv-costName': toTextStyle('Coordinates','reserv'),
 
-        'traject-name': "Trajectories",
-        'traject-costName': toTextStyle('Trajectories','traject'),
+        'traject-name': "Active textwallers",
+        'traject-costName': toTextStyle('Active textwallers','traject'),
 
-        'hadron-name': "Fundamental Particles",
-        'hadron-costName': toTextStyle('Fundamental Particles','hadron'),
+        'hadron-name': "Infinity Points",
+        'hadron-costName': toTextStyle('Infinity Points','hadron'),
 
-        'full-shark-level': toTextStyle('Shark','shark') + ' Level',
-        'full-shark-rank': toTextStyle('Shark','shark') + ' Rank',
+        'full-shark-level': toTextStyle('Building','shark') + ' Level',
+        'full-shark-rank': toTextStyle('Building','shark') + ' Rank',
 
-        'sharkoid-faith': toTextStyle('Sharkoid Faith','humanoid'),
+        'sharkoid-faith': toTextStyle('Textwallers','humanoid'),
 
-        'curr-top-0-req': x => `Reach <b>${format(x)}</b> total ${toTextStyle('Fish','fish')}`, 
-        'curr-top-0-reset': x => `Prestige for <b>${x.format(0)}</b> ${toTextStyle('Prestige','prestige')} Shards`,
+        'curr-top-0-req': x => `Reach <b>${format(x)}</b> total ${toTextStyle('Walls','fish')}`, 
+        'curr-top-0-reset': x => `Add new walls for <b>${x.format(0)}</b> ${toTextStyle('subwalls','prestige')}`,
 
-        'curr-top-1-req': x => `Reach <b>${format(x)}</b> total ${toTextStyle('Prestige','prestige')} Shards`, 
-        'curr-top-1-reset': x => `Enter the core for <b>${x.format(0)}</b> ${toTextStyle('Magmatic','core')} Fragments`,
+        'curr-top-1-req': x => `Reach <b>${format(x)}</b> total ${toTextStyle('Subwalls','prestige')}`, 
+        'curr-top-1-reset': x => `Open textwall source code for <b>${x.format(0)}</b> ${toTextStyle('Textwall','core')} Components`,
 
-        'curr-top-2-req': x => `Reach <b>${format(x)}</b> ${toTextStyle('Fish','fish')}`, 
-        'curr-top-2-reset': (x,next) => `Evolve your ${toTextStyle('Sharks','shark')} into <b>${format(x,0)}</b> ${toTextStyle('Humanoid','humanoid')} Sharks (Next at <b>${format(next)}</b> ${toTextStyle('Fish','fish')})`,
+        'curr-top-2-req': x => `Reach <b>${format(x)}</b> ${toTextStyle('Walls','fish')}`, 
+        'curr-top-2-reset': (x,next) => `Add files to your ${toTextStyle('TextWall','shark')} into <b>${format(x,0)}</b> ${toTextStyle('Textwall','humanoid')} Files (Next at <b>${format(next)}</b> ${toTextStyle('Walls','fish')})`,
 
         'curr-top-3-req': x => `Reach <b>${format(x)}</b> ${toTextStyle('Fish','fish')} & <b>8</b> ${toTextStyle('Black Holes','black-hole')}`, 
-        'curr-top-3-reset': x => `Sacrifice your ${toTextStyle('Sharks','shark')} for <b>${format(x,0)}</b> ${toTextStyle('Dark Matter','black-hole')}`,
+        'curr-top-3-reset': x => `Run your ${toTextStyle('Scripts','black-hole')} for <b>${format(x,0)}</b> ${toTextStyle('Scripts running','black-hole')}`,
 
-        'curr-top-4-req': x => `Reach <b>${format(x)}</b> ${toTextStyle('Observatories','observ')}`, 
-        'curr-top-4-reset': x => `Reserve for <b>${format(x,0)}</b> ${toTextStyle('Reservatories','reserv')}`,
+        'curr-top-4-req': x => `Reach <b>${format(x)}</b> ${toTextStyle('Farlanders','observ')}`, 
+        'curr-top-4-reset': x => `Reserve for <b>${format(x,0)}</b> ${toTextStyle('Coordinates','reserv')}`,
 
-        'curr-top-5-req': x => `Reach <b>${format(x)}</b> ${toTextStyle('Reservatories','reserv')}`, 
-        'curr-top-5-reset': x => `Traject for <b>${format(x,0)}</b> ${toTextStyle('Trajectories','traject')}`,
+        'curr-top-5-req': x => `Reach <b>${format(x)}</b> ${toTextStyle('Farlanders','reserv')}`, 
+        'curr-top-5-reset': x => `Traject for <b>${format(x,0)}</b> ${toTextStyle('Active textwallers','traject')}`,
 
-        'curr-top-6-req': x => `Reach <b>${format(x)}</b> ${toTextStyle('Fish','fish')}`, 
-        'curr-top-6-reset': (x,next) => `Hadronize for <b>${format(x,0)}</b> ${toTextStyle('Fundamental Particles','hadron')} (Next at <b>${format(next)}</b> ${toTextStyle('Fish','fish')})`,
+        'curr-top-6-req': x => `Reach <b>${format(x)}</b> ${toTextStyle('Walls','fish')}`, 
+        'curr-top-6-reset': (x,next) => `Be textwall enthusiast for <b>${format(x,0)}</b> ${toTextStyle('Infinity Points','hadron')} (Next at <b>${format(next)}</b> ${toTextStyle('Walls','fish')})`,
         
-        'radioactive-name': toTextStyle('Radiation '+icon("radioactive"),'core'),
+        'radioactive-name': toTextStyle('Colors/Decorations '+icon("radioactive"),'core'),
 
         // Tabs
 
-        'tab-shark': toTextStyle('Shark','shark'),
+        'tab-shark': toTextStyle('Walls','shark'),
         'tab-options': "Options",
         'tab-scalings': "Scalings",
         'tab-auto': "Automation",
@@ -91,45 +91,45 @@ LANGUAGES.EN = {
         'tab-explore': "Exploration",
         'tab-space-base': toTextStyle('Space Base','observ'),
 
-        'tab-core': toTextStyle('Core','core'),
-        'tab-core-reactor': toTextStyle('Core','core')+" Reactor",
-        'tab-core-radiation': toTextStyle('Core','core')+" Radiation",
-        'tab-core-assembler': toTextStyle('Core','core')+" Assembler",
+        'tab-core': toTextStyle('Components','core'),
+        'tab-core-reactor': toTextStyle('Component','core')+" Check",
+        'tab-core-radiation': toTextStyle('Component','core')+" Settings",
+        'tab-core-assembler': toTextStyle('Component','core')+" Solving",
 
-        'tab-evolution': toTextStyle('Evolution','humanoid'),
-        'tab-shark-rank': toTextStyle('Shark','shark') + " Rank",
-        'tab-evolution-tree': toTextStyle('Evolution','humanoid') + " Tree",
-        'tab-evolution-goal': toTextStyle('Evolution','humanoid') + " Goals",
+        'tab-evolution': toTextStyle('Files','humanoid'),
+        'tab-shark-rank': toTextStyle('Building','shark') + " Rank",
+        'tab-evolution-tree': toTextStyle('Files','humanoid') + " Tree",
+        'tab-evolution-goal': toTextStyle('Sluggish','humanoid') + " Goals",
         'tab-cultivation': "Cultivation",
         'tab-forge': "Forge",
         'tab-particle-accel': "Particle Accelerator",
 
         'tab-singularity': toTextStyle('Singularity','black-hole'),
-        'tab-black-hole': toTextStyle('Black Hole','black-hole'),
+        'tab-black-hole': toTextStyle('Textwall AQ','black-hole'),
         'tab-singularity-milestones': toTextStyle('Singularity','black-hole') + " Milestones",
         'tab-solar-system': "Solar System",
         'tab-constellation': toTextStyle('Constellation','star'),
 
-        'tab-hadron': toTextStyle('Hadronize','hadron'),
+        'tab-hadron': toTextStyle("Textwall Enthusiast",'hadron'),
         'tab-hadron-su': "Starter Upgrades",
-        'tab-shark-tier': toTextStyle('Shark','shark') + " Tier",
-        'tab-nucleobase': "Nucleobases",
+        'tab-shark-tier': toTextStyle('Building','shark') + " Tier",
+        'tab-nucleobase': "Corruption",
         'tab-gal-explore': "Galactic Exploration",
 
         // Elements
 
-        'fish-div': `Your ${toTextStyle('Shark','shark')} has eaten <h2>${toTextStyle('0','fish','fish-amount')}</h2> <span id="fish-gain"></span> fish.`,
-        'shark-stats': `${toTextStyle('Shark','shark')} Stats<br>Level: <h4 id="shark-level">???</h4><br>Rank: <h4 id="shark-tier">???</h4> <span id="shark-next-rank"></span>`,
+        'fish-div': `Your ${toTextStyle('TextWall user','shark')} has <h2>${toTextStyle('0','fish','fish-amount')}</h2> <span id="fish-gain"></span> walls.`,
+        'shark-stats': `${toTextStyle('TextWall','shark')} Stats<br>Level: <h4 id="shark-level">???</h4><br>Rank: <h4 id="shark-tier">???</h4> <span id="shark-next-rank"></span>`,
 
-        'shark-elo-div': `Your ${toTextStyle('Shark','shark')} ELO is <h3>${toTextStyle('0','humanoid','shark-elo')}</h3>.`,
-        'shark-rank-div': `Your ${toTextStyle('Shark','shark')} Rank is <h3 id="shark-rank">0</h3>.`,
-        'shark-rank-req-div': `The next rank requires ${toTextStyle('Shark','shark')} ELO <h4>${toTextStyle('0','humanoid','shark-rank-req')}</h4>.`,
-        'shark-rank-note': `Note: Shark Rank gets reset when you trigger an Evolution reset.`,
+        'shark-elo-div': `Your ${toTextStyle('Userwall','shark')} Anons is <h3>${toTextStyle('0','humanoid','shark-elo')}</h3>.`,
+        'shark-rank-div': `Your ${toTextStyle('Building','shark')} Rank is <h3 id="shark-rank">0</h3>.`,
+        'shark-rank-req-div': `The next rank requires ${toTextStyle('Userwall','shark')} Anons <h4>${toTextStyle('0','humanoid','shark-rank-req')}</h4>.`,
+        'shark-rank-note': `Note: Building Rank gets reset when you trigger an File reset.`,
 
-        'shark-iq-div': `Your ${toTextStyle('Shark','shark')} IQ is <h3>${toTextStyle('0','hadron','shark-iq')}</h3>.`,
-        'shark-tier-div': `Your ${toTextStyle('Shark','shark')} Tier is <h3 id="shark-tier2">0</h3>.`,
-        'shark-tier-req-div': `The next tier requires ${toTextStyle('Shark','shark')} IQ <h4>${toTextStyle('0','hadron','shark-tier-req')}</h4>.`,
-        'shark-tier-note': `Note: Shark Tier gets reset when you trigger a Hadronize reset.`,
+        'shark-iq-div': `Your ${toTextStyle('Userwall','shark')} Servers is <h3>${toTextStyle('0','hadron','shark-iq')}</h3>.`,
+        'shark-tier-div': `Your ${toTextStyle('Building','shark')} Tier is <h3 id="shark-tier2">0</h3>.`,
+        'shark-tier-req-div': `The next tier requires ${toTextStyle('Userwall','shark')} Servers <h4>${toTextStyle('0','hadron','shark-tier-req')}</h4>.`,
+        'shark-tier-note': `Note: Shark Tier gets reset when you trigger a Infinity reset.`,
 
         'option-title-1': "Main Options",
         'option-title-2': "Notations",
@@ -139,9 +139,9 @@ LANGUAGES.EN = {
         'offline-speed': "Speed up Offline time",
         'offline-done': "Done",
 
-        'radioactive-div': `The ${toTextStyle('Core','core')} has produced <h3>${toTextStyle('0 / 1,000 '+icon("radioactive"),'core','radioactive-amount')}</h3> <span id="radioactive-gain"></span>.`,
+        'radioactive-div': `The ${toTextStyle('Colors','core')} has decorated <h3>${toTextStyle('0 / 1,000 '+icon("radioactive"),'core','radioactive-amount')}</h3> <span id="radioactive-gain"></span>.`,
         get 'radioactive-summary'() {
-            var c = toTextStyle('Core','core'), rf = toTextStyle('Fish '+icon("radioactive"),'fish')
+            var c = toTextStyle('Component','core'), rf = toTextStyle('Walls '+icon("radioactive"),'walls')
             return `
             <summary>The ${c} Radiation Experiment</summary>
             Experimenting with the core radiation forces a ${toTextStyle('Core','core')} reset.
@@ -949,19 +949,19 @@ LANGUAGES.EN = {
         'gal-explore-upgrade': (x,y) => `Boost ${x} gained by ${y}.`,
         'gal-explore': [
             [
-                `Deep Blue Ocean`, `Blue Algae`,
+                `falling1textwall.glitch.me`, `New chars`,
                 `${toTextStyle('Magmatic','core')} fragments are raised by <b>0.5</b> to the exponent^2, the ${toTextStyle('Core','core')} temperature and ${toTextStyle('Radiation ' + icon("radioactive"),'core')} production are set to <b>log(x)</b>.`,
                 x => `${x} to the exponent of ${toTextStyle('Magmatic','core')} fragments and ${toTextStyle('Radiation ' + icon("radioactive"),'core')} production.`
             ],[
-                `Abyssal Ocean`, `Bioluminescent Matter`,
+                `tw.2s4.me`, `Chat sent`,
                 `The tetration of ${toTextStyle('Prestige','prestige')} shards is <b>halved</b>.`,
                 x => `${x} to the exponent of ${toTextStyle('Prestige','prestige')} shards.`
             ],[
-                `Grey Ocean`, `Grey Plankton`,
+                `unitextwall.glitch.me`, `Ideas`,
                 `The exponent of ${toTextStyle('Humanoid','humanoid')} sharks is rooted by 10, you cannot increase the multiplier and exponent of ${toTextStyle('Shark','shark')} ${toTextStyle('ELO','humanoid')}.`,
                 x => `${x} to the exponent of ${toTextStyle('Shark','shark')} ${toTextStyle('ELO','humanoid')}.`
             ],[
-                `Corrupted Ocean`, `Corrupted Remnants`,
+                `corruptwall.glitch.me`, `Randomized Colors`,
                 `The exponent^2 of ${toTextStyle('Remnant','black-hole')} generation & ${toTextStyle('Dark Matter','black-hole')} is square-rooted.`,
                 x => `${x} to the exponent of ${toTextStyle('Remnant','black-hole')} generation.`
             ],
@@ -1219,11 +1219,11 @@ LANGUAGES.EN = {
 
         'option-buttons-text': ["Save","Export to clipboard","Export as file","Import from prompt","Import from file","WIPE!!!",'Join the community (Discord)','Support the creator (Boosty)'],
 
-        'confirm-prestige': "Prestige",
-        'confirm-core': "Enter the Core",
-        'confirm-humanoid': "Evolve Sharks",
-        'confirm-black-hole': "Form the Black Hole",
-        'confirm-sacrifice': "Sacrifice Sharks",
-        'confirm-hadron': "Hadronize",
+        'confirm-prestige': "Add Subwall",
+        'confirm-core': "Add Components",
+        'confirm-humanoid': "Turn files",
+        'confirm-black-hole': "Textwall AQ",
+        'confirm-sacrifice': "Run scripts",
+        'confirm-hadron': "Infinity",
     },
 }
